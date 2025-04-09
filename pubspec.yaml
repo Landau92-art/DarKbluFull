@@ -1,0 +1,24 @@
+
+name: darkblu_full
+description: Aplicatia DarKblu - versiunea completa
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.1.1
+  cloud_firestore: ^4.0.3
+  firebase_storage: ^11.0.6
+  provider: ^6.0.5
+  http: ^0.13.5
+  shared_preferences: ^2.0.15
+  image_picker: ^0.8.6
+  video_player: ^2.4.5
+  flutter_local_notifications: ^12.0.4
+
+flutter:
+  uses-material-design: true
